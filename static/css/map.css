@@ -1,0 +1,121 @@
+body {
+    width: 1560px;
+}
+.body {
+    font-family: Arial;
+}
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.button_holder_home {
+    float: left;
+    width: 0px;
+    text-align: center;
+}
+.button_holder_chart {
+    float: right;
+    width: 0px;
+    text-align: center;
+}
+.button {
+    float: left;
+    width: 60px;
+    background: orange;
+    font-family: Arial;
+    color: black;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+}
+.button:hover {
+    border-radius: 10pt;
+    text-decoration: none;
+}
+h1 {
+    margin: 12px;
+    color: darkblue;
+    font-family: Georgia;
+    font-size: 40px;
+    text-align: center;
+}
+.animateButton {
+    border: 1px solid black;
+    background: #0066ffbf;
+    font-family: monospace;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin: 0 auto;
+    width: 180px;
+}
+.select {
+    margin-top: 60px;
+    text-align: center;
+}
+.yearSelect {
+    background-color: #0066ffbf;
+    color: black;
+    width: 140px;
+}
+ ::-webkit-input-placeholder {
+    color: black;
+}
+input {
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-family: monospace;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 4px auto;
+}
+input:focus {
+    outline: none;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.map circle {
+    stroke: black;
+    stroke-width: 0.8;
+    opacity: 0.9;
+}
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: orange;
+    pointer-events: none;
+    border-radius: 6px;
+}
+.select circle {
+    fill: none;
+    stroke: #00000070;
+}
+.legend text {
+    fill: #777;
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+.input {
+    float: left;
+    transform: translate(500px, 40px);
+}
+.legends {
+    float: left;
+    transform: translateX(90%);
+}
+.legendOrdinal .legendTitle {
+    font-size: 18px;
+    transform: translate(-20px, 5px);
+}
+.legendSize .legendTitle {
+    font-size: 18px;
+    transform: translate(120px, -35px);
+}

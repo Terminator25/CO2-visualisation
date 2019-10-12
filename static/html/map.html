@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<title>World Map</title>
+<link rel="shortcut icon" href="//raw.githubusercontent.com/WillKoehrsen/emissions-explorer/master/static/img/global.jpg">
+<link rel="stylesheet" href="../css/map.css">
+
+<head>
+    <meta charset="utf-8">
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="//d3js.org/d3.geo.projection.v0.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3-legend/1.13.0/d3-legend.min.js"></script>
+    <script src="../js/map.js"></script>
+
+</head>
+
+<body>
+    <div class="button_holder_home">
+        <a href='/' class="button">Home</a>
+    </div>
+    <div class="button_holder_chart">
+        <a href='/static/html/chart.html' class="button">Chart</a>
+    </div>
+    <div class = 'title'>
+    <h1>CO2 Emissions</h1>
+</div>
+    <div class="select">
+        <div class="input">
+            <button class="animateButton" id="animateButton">Animate</button>
+            <form id='yearForm' onsubmit="return false">
+                <input class="yearSelect" type="number" min=1850 max=2014 id="yearSelect" placeholder="Enter Year...">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
