@@ -1,0 +1,71 @@
+#chart {
+    margin-top: -40px;
+    margin-left: -40px;
+    margin-bottom: 20px;
+    height: 600px;
+}
+.dot {
+    opacity: 0.8;
+    stroke-width: 1.5;
+    stroke: #000;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.label {
+    fill: #777;
+}
+title {
+    visibility: visible;
+    display: initial ;
+}
+.label text {
+    fill: black;
+}
+text.label {
+    font: 24px sans-serif;
+    fill: black;
+}
+.year.label {
+    font: 500 196px "Helvetica Neue";
+    fill: #333333bf;
+}
+.year.label.active {
+    fill: #aaa;
+}
+.overlay {
+    fill: none;
+    pointer-events: all;
+    cursor: ew-resize;
+}
+g.tick {
+    font: 15px sans-serif;
+}
+text.annotation {
+    font-size: 14px;
+}
+aside.note {
+    font-size: 18px;
+    color: black;
+}
+aside.hack {
+    font-size: 16px padding: 4pt;
+}
+center {
+    margin-top: 0.5em;
+}
+a.button {
+    font-size: 20pt;
+}
+a {
+    font-size: 14pt;
+}
+h1 {
+    color: steelblue;
+}
+.note {
+    transform: translateY(-600px);
+}
